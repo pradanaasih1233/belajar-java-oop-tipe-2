@@ -14,7 +14,7 @@ package com.belajar;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("BELAJAR JAVA OOP 09 object class");
+        System.out.println("BELAJAR JAVA OOP 11 type check & casts");
 
         // contoh :
         // ini adalah cara merubah bentuk.
