@@ -2,14 +2,15 @@ package com.belajar.orang;
 
 import com.belajar.orangtua.OrangTua; // alamat bila kita akan akses file
 
+// ini menandakan bahwa class ini umum.
 public class Orang extends OrangTua {
 
     // membuat field.
-    String name;                        // ini field
-    String address;                     // ini juga field
-    final String country = "indonesia"; // ini juga field
+    String name;
+    String address;
+    final String country = "indonesia";
 
-    // ini adalah construktor.
+    // ini menandakan construktor ini umum.
     public Orang(String name, String address, boolean tampilkan){
         System.out.println("ini adalah construktor yang akan dipanggil...");
 
@@ -25,6 +26,7 @@ public class Orang extends OrangTua {
         }
     }
 
+    // ini menandakan method ini umum.
     public void sayaAdalah(){
         System.out.println("Saya adalah anak orang");
     }

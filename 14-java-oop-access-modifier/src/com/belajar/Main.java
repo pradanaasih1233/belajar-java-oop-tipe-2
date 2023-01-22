@@ -1,15 +1,24 @@
-// PACKAGE
+// ACCESS MODIFIER
 
-// Dalam hal ini adalah sebuah fitur untuk megelola file dalam java.
+// Dalam hal ini adalah suatu cara untuk memberikan izin dari field/method.
 
 /*------------------------------------------------------------
- *| PACAKE
+ *| ACCESS MODIFIER
  *|------------------------------------------------------------
- *|  Dalam java terdapat sebuah cara untuk mengelola class/file
- *| dengan memisahkan suatu file java satu dengan file java yang
- *| lain. untuk mengkases suatu file maka harus dideklarasikan
- *| alamat file tersebut dengan kata kunci import diikuti
- *| path file dengan tanda titik(.).
+ *|  Cara untuk memberikan izin dari field/method agar
+ *| dapat diakses/tidak.
+ */
+
+/*| Modifier    | class | package   | Subclass  | world
+ *-----------------------------------------------------
+ *| public      | y     | y         | y         | y
+ *| protected   | y     | y         | n         | n
+ *| no modifire | y     | y         | n         | n
+ *| private     | y     | n         | n         | n
+ *
+ *     **no modifier : default : tanpa tanda apa pun.
+ *     **dalam 1 file java hanya ada 1 class public saja.
+ *     **nama public class harus sama dengan nama file.
  */
 
 package com.belajar;
@@ -17,9 +26,10 @@ package com.belajar;
 import com.belajar.kakek.Kakek;
 import com.belajar.orang.Orang;
 
+// ini menandakan bahwa class ini umum.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("BELAJAR JAVA OOP 13 package");
+        System.out.println("BELAJAR JAVA OOP 13 access modifier");
 
         Orang orang = new Orang("jarat","kulonprogo",true);
         orang.sayaAdalah();
