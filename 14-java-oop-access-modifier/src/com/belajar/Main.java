@@ -29,7 +29,7 @@ import com.belajar.orang.Orang;
 // ini menandakan bahwa class ini umum.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("BELAJAR JAVA OOP 13 access modifier");
+        System.out.println("BELAJAR JAVA OOP 14 access modifier");
 
         Orang orang = new Orang("jarat","kulonprogo",true);
         orang.sayaAdalah();
