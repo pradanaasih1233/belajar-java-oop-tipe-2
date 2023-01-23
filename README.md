@@ -1,4 +1,4 @@
 # belajar-java-oop-tipe-2
-Dalam repo ini adalah catatan belajar java papa_yy_uu yang diambil dari beberapa submer.
+Dalam repo ini adalah catatan belajar java papa_yy_uu yang diambil dari beberapa sumber.
 
 Kita harus selalu semangat dalam belajar dan mewujudkan impian-impian kita.
