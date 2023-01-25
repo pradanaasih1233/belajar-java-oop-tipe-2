@@ -11,7 +11,7 @@ public class ValidationUtil {
 
         // bila request kosong/blank.
         } else if (loginRequest.getUsername() == ""){
-            throw new NullPointerException("username blank");
+            throw new ValidationException("username blank");
 
         // bila request null.
         } else if (loginRequest.getPassword() == null){
@@ -19,7 +19,7 @@ public class ValidationUtil {
 
         // bila request kosong/blank.
         } else if (loginRequest.getPassword() == ""){
-            throw new NullPointerException("password blank");
+            throw new ValidationException("password blank");
 
         }
     }
